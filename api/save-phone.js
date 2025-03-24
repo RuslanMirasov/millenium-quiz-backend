@@ -49,7 +49,7 @@ export default async function handler(req, res) {
       });
     }
 
-    await collection.insertOne({ phone, created_at: new Date().toLocaleDateString('ru-RU') });
+    await collection.insertOne({ phone, created_at: new Date() });
 
     res.status(200).json({ success: true, message: 'Cпасибо, данные успешно сохранены!' });
   } catch (err) {
