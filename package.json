@@ -1,0 +1,17 @@
+{
+  "name": "millenium-quize-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Минимальный backend на Vercel для сохранения и получения телефонов с MongoDB Atlas",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "keywords": [],
+  "author": "mirasov.dev",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.15.0"
+  }
+}
